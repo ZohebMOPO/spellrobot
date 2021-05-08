@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Head from "./components/Head";
 import Buttons from "./components/Buttons";
+import Music from "./components/Music";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Fragment>
       <Head />
       <Buttons />
+      <Music />
     </Fragment>
   );
 }
