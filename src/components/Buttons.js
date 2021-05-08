@@ -5,27 +5,27 @@ function Buttons() {
     <Fragment>
       <div className="text-center p-5">
         <button type="button" class="btn-lg btn-secondary">
-          Secondary
+          Front
         </button>
       </div>
       <div className="p-5">
         <button type="button" class="btn-lg btn-success">
-          Success
+          Left
         </button>
       </div>
       <div className="text-center p-5">
         <button type="button" class="btn-lg btn-danger">
-          Danger
+          Right
         </button>
       </div>
       <div className="p-5">
         <button type="button" class="btn-lg btn-warning">
-          Warning
+          Back
         </button>
       </div>
       <div className="text-center p-5">
         <button type="button" class="btn-lg btn-dark">
-          Dark
+          Stop
         </button>
       </div>
     </Fragment>
