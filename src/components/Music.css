@@ -1,0 +1,6 @@
+.custom-time-text, .custom-control{
+    visibility: hidden;
+}
+.custom-play-pause{
+    visibility: visible;
+}
