@@ -1,10 +1,27 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 
 function Buttons() {
+  const [forward, setforward] = useState("");
+  const front = async () => {
+    try {
+      const response = await fetch(
+        "http://tangled.ae/Spellbound-Robot/entry.php?val=1"
+      );
+      const data = await response.json();
+      this.setState({ totalReactPackages: data.total });
+    } catch (err) {
+      console.error(err.message);
+    }
+  };
   return (
     <Fragment>
       <div className="text-center p-5">
-        <button type="button" class="btn-lg btn-secondary">
+        <button
+          type="button"
+          class="btn-lg btn-secondary"
+          value={forward}
+          onSubmit={setforward()}
+        >
           Front
         </button>
       </div>
