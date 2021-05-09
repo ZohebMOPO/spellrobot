@@ -5,7 +5,7 @@ class Button1 extends React.Component {
     return (
       <Fragment>
         <div className="text-center p-5">
-          <a href="http://tangled.ae/Spellbound-Robot/entry.php?val=1">
+          <a href="https://tangled.ae/Spellbound-Robot/entry.php?val=1">
             <button type="button" className="btn-lg btn-secondary">
               Front
             </button>

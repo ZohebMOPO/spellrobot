@@ -11,7 +11,9 @@ function Head() {
             className="form-control"
             placeholder="Magic Happens Here!"
           />
-          <button className="btn btn-info">Magic</button>
+          <a href="https://tangled.ae/Spellbound-Robot/entry.php?val=6">
+            <button className="btn btn-info">Magic</button>
+          </a>
         </form>
       </div>
     </Fragment>

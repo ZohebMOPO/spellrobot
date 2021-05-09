@@ -5,7 +5,7 @@ class Button4 extends React.Component {
     return (
       <Fragment>
         <div className="p-5">
-          <a href="http://tangled.ae/Spellbound-Robot/entry.php?val=4">
+          <a href="https://tangled.ae/Spellbound-Robot/entry.php?val=4">
             <button type="button" className="btn-lg btn-warning">
               Back
             </button>
