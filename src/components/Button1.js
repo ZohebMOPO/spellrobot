@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
 
 class Button1 extends React.Component {
-  state = { data: [] };
   async componentDidMount() {
     const url = "https://tangled.ae/Spellbound-Robot/entry.php?val=1";
     const response = await fetch(url, {
-      mode: "cors",
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
       },
@@ -13,16 +12,11 @@ class Button1 extends React.Component {
     const data = response.json();
     console.log(data);
   }
-  // eslint-disable-next-line no-dupe-class-members
   render() {
     return (
       <Fragment>
         <div className="text-center p-5">
-          <button
-            type="button"
-            class="btn-lg btn-secondary"
-            onClick={() => this.state.data}
-          >
+          <button type="button" class="btn-lg btn-secondary">
             Front
           </button>
         </div>

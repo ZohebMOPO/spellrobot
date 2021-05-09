@@ -5,7 +5,7 @@ class Button4 extends React.Component {
   async componentDidMount() {
     const url = "http://tangled.ae/Spellbound-Robot/entry.php?val=4";
     const response = await fetch(url, {
-      mode: "cors",
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
       },
@@ -16,11 +16,7 @@ class Button4 extends React.Component {
   render() {
     return (
       <div className="p-5">
-        <button
-          type="button"
-          class="btn-lg btn-warning"
-          onClick={() => this.state.data}
-        >
+        <button type="button" class="btn-lg btn-warning">
           Back
         </button>
       </div>
