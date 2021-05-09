@@ -10,6 +10,8 @@ class Button1 extends React.Component {
         "Content-Type": "application/json",
       },
     });
+    const data = response.json();
+    console.log(data);
   }
   // eslint-disable-next-line no-dupe-class-members
   render() {

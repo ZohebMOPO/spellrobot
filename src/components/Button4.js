@@ -10,6 +10,8 @@ class Button4 extends React.Component {
         "Content-Type": "application/json",
       },
     });
+    const data = response.json();
+    console.log(data);
   }
   render() {
     return (
