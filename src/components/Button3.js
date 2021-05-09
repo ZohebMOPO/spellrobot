@@ -5,7 +5,7 @@ class Button3 extends React.Component {
   async componentDidMount() {
     const url = "http://tangled.ae/Spellbound-Robot/entry.php?val=3";
     const response = await fetch(url, {
-      mode: "no-cors",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json",
       },
