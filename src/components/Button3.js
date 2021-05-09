@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 class Button3 extends React.Component {
   async componentDidMount() {
@@ -14,11 +14,17 @@ class Button3 extends React.Component {
   }
   render() {
     return (
-      <div className="text-center p-5">
-        <button type="button" className="btn-lg btn-danger" onClick={Response}>
-          Right
-        </button>
-      </div>
+      <Fragment>
+        <div className="text-center p-5">
+          <button
+            type="button"
+            className="btn-lg btn-danger"
+            onClick={Response}
+          >
+            Right
+          </button>
+        </div>
+      </Fragment>
     );
   }
 }
