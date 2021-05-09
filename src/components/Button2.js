@@ -2,7 +2,7 @@ import React from "react";
 
 class Button2 extends React.Component {
   async componentDidMount() {
-    const url = "http://tangled.ae/Spellbound-Robot/entry.php?val=2";
+    const url = "https://tangled.ae/Spellbound-Robot/entry.php?val=2";
     const response = await fetch(url, {
       mode: "no-cors",
       headers: {

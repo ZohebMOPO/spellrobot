@@ -3,7 +3,7 @@ import React from "react";
 class Button4 extends React.Component {
   state = { data: [] };
   async componentDidMount() {
-    const url = "http://tangled.ae/Spellbound-Robot/entry.php?val=4";
+    const url = "https://tangled.ae/Spellbound-Robot/entry.php?val=4";
     const response = await fetch(url, {
       mode: "no-cors",
       headers: {
