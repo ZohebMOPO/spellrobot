@@ -16,7 +16,11 @@ class Button1 extends React.Component {
     return (
       <Fragment>
         <div className="text-center p-5">
-          <button type="button" class="btn-lg btn-secondary">
+          <button
+            type="button"
+            className="btn-lg btn-secondary"
+            onClick={Response}
+          >
             Front
           </button>
         </div>

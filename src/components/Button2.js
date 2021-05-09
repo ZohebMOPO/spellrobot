@@ -15,7 +15,7 @@ class Button2 extends React.Component {
   render() {
     return (
       <div className="p-5">
-        <button type="button" class="btn-lg btn-success">
+        <button type="button" className="btn-lg btn-success" onClick={Response}>
           Left
         </button>
       </div>

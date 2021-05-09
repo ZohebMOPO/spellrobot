@@ -1,7 +1,6 @@
 import React from "react";
 
 class Button4 extends React.Component {
-  state = { data: [] };
   async componentDidMount() {
     const url = "https://tangled.ae/Spellbound-Robot/entry.php?val=4";
     const response = await fetch(url, {
@@ -16,7 +15,7 @@ class Button4 extends React.Component {
   render() {
     return (
       <div className="p-5">
-        <button type="button" class="btn-lg btn-warning">
+        <button type="button" className="btn-lg btn-warning" onClick={Response}>
           Back
         </button>
       </div>
